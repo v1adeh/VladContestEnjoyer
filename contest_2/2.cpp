@@ -17,9 +17,11 @@ bool is_can_exit_from_maze(vector<string> pole, int SR, int SC) {
     bool exit = false;
     pole[SR][SC] = 'C';                                                //начальное положение
     while(true) {
+        bool checkpass = false;                                        // если не найдёт выход, то всё равно закончит функцию, т.к далее мы задаём ей значение true
         for (int x = 1; x < pole.size() - 1; x++) {                    //проходим по всем значением лабиринта пока не доберёмся до нашей точки C
             for (int y = 1; y < pole[0].length() - 1; y++) {
                 if (pole[x][y] == 'C') {
+                    checkpass = true;
 
                     exit = check(&pole, x-1, y);   // лево     // проверяем возможность передвижения
                     if (exit) break;                                   //если натыкаемся на выход то прерываем программу
@@ -38,7 +40,7 @@ bool is_can_exit_from_maze(vector<string> pole, int SR, int SC) {
             }
             if (exit) break;
         }
-        if (exit) break;
+        if (exit || !checkpass) break;
     }
     return exit;
 }
