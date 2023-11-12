@@ -56,3 +56,13 @@
 | --- | :-: |
 | [1. Количество выполненных задач](./contest_4/1/1.go) | ![](./img/go.png) |
 | [2. Количество выполненных задач](./contest_4/2/2.cpp) |  ![](./img/cpp.png) |
+
+|[Контест 5](https://contest.yandex.ru/contest/55465/problems/) |  |
+| --- | :-: |
+| [1. Get a cat](./contest_5/1/1.cpp) | ![](./img/cpp.png) |
+| [2. Класс. Чайник](./contest_5/2/2.cpp) |  ![](./img/cpp.png) |
+| [3. Класс. Комплексное число](./contest_5/3/3.cpp) | ![](./img/cpp.png) |
+| [4. Класс. Point](./contest_5/4/4.cpp) |  ![](./img/cpp.png) |
+| [5. Класс. Большое целое число] | ![](./img/cpp.png) |
+| [6. Get a cat](./contest_5/6/6.go) | ![](./img/go.png) |
+| [7. Класс. Чайник](./contest_5/7/7.go) |  ![](./img/go.png) |
